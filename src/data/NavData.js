@@ -1,4 +1,4 @@
-import { RiDashboardHorizontalFill } from 'react-icons/ri';
+import { FaLocationCrosshairs } from "react-icons/fa6";
 import { FaMapLocationDot } from 'react-icons/fa6';
 import { FaFileAlt } from 'react-icons/fa';
 import { TbAlertTriangleFilled } from 'react-icons/tb';
@@ -8,38 +8,38 @@ import { TbBadgeOff } from 'react-icons/tb';
 
 export const NavIcon = [
   {
-    name: 'Dashboard',
+    name: 'Location',
     to: '/',
-    icon: RiDashboardHorizontalFill,
+    icon: FaLocationCrosshairs ,
   },
   {
-    name: 'Realtime Map',
+    name: 'Notification',
     to: '/map',
     icon: FaMapLocationDot,
   },
-  {
-    name: 'Anomalies',
-    to: '/anomaly',
-    icon: TbBadgeOff,
-  },
-  {
-    name: 'Satellite Image',
-    to: '/satellite',
-    icon: FaSatellite,
-  },
-  {
-    name: 'Alert',
-    to: '/alert',
-    icon: TbAlertTriangleFilled,
-  },
-  {
-    name: 'Records',
-    to: '/records',
-    icon: FaFileAlt,
-  },
-  {
-    name: 'Setting',
-    to: '/setting',
-    icon: IoSettings,
-  },
+  // {
+  //   name: 'Anomalies',
+  //   to: '/anomaly',
+  //   icon: TbBadgeOff,
+  // },
+  // {
+  //   name: 'Satellite Image',
+  //   to: '/satellite',
+  //   icon: FaSatellite,
+  // },
+  // {
+  //   name: 'Alert',
+  //   to: '/alert',
+  //   icon: TbAlertTriangleFilled,
+  // },
+  // {
+  //   name: 'Records',
+  //   to: '/records',
+  //   icon: FaFileAlt,
+  // },
+  // {
+  //   name: 'Setting',
+  //   to: '/setting',
+  //   icon: IoSettings,
+  // },
 ];
